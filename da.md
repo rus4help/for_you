@@ -212,4 +212,141 @@ Même sans programmation, vous pouvez accomplir 80% des tâches d'un analyste de
 - [**Data.gouv.fr**](https://www.data.gouv.fr/)  
 - [**Power BI Community**](https://community.powerbi.com/)  
 
-Bon courage dans votre apprentissage ! 😊  
+====================
+
+# ROADMAP
+
+### **Feuille de route pour apprendre les technologies d'analyste de données (sans Python/R)**  
+**Objectif** : De débutant à employé en 8–12 mois.  
+**Focus** : SQL, Power BI/Tableau, Excel, statistiques.
+
+---
+
+### **Étape 1 : Bases (0–3 mois)**  
+#### **1.1. Statistiques et mathématiques**  
+- **Objectif** : Comprendre les concepts de base pour l'analyse de données.  
+- **À apprendre** :  
+  - Moyenne, médiane, variance, corrélation.  
+  - Valeur p, intervalles de confiance, tests A/B.  
+- **Ressources** :  
+  - [**Fun-Mooc: Statistique pour tous**](https://www.fun-mooc.fr/fr/cours/statistique-pour-tous/) (4 semaines).  
+  - [**Khan Academy: Statistiques**](https://fr.khanacademy.org/math/statistics-probability) (exercices).  
+
+#### **1.2. Excel/Google Sheets**  
+- **Objectif** : Automatiser les calculs et l'analyse préliminaire.  
+- **À apprendre** :  
+  - Tableaux croisés dynamiques, formules (`RECHERCHEV`, `SOMME.SI.ENS`).  
+  - Bases de Power Query pour le nettoyage des données.  
+- **Ressources** :  
+  - [**Excel-Pratique**](https://www.excel-pratique.com/fr/) (sections "Formules" et "Tableaux croisés").  
+  - Pratique : Analyse du dataset [**superstore sales**](https://www.kaggle.com/datasets).  
+
+#### **1.3. SQL (niveau débutant)**  
+- **Objectif** : Extraire des données des bases.  
+- **À apprendre** :  
+  - `SELECT`, `WHERE`, `JOIN`, `GROUP BY`, fonctions d'agrégation.  
+- **Ressources** :  
+  - [**SQL.sh: Cours SQL**](https://sql.sh/cours) (sections de base).  
+  - Pratique : [**SQL Practice**](https://www.sql-practice.com/) (résoudre des problèmes).  
+
+---
+
+### **Étape 2 : Visualisation des données (4–6 mois)**  
+#### **2.1. Power BI**  
+- **Objectif** : Créer des tableaux de bord interactifs.  
+- **À apprendre** :  
+  - Connexion aux données (Excel, SQL, CSV).  
+  - Formules DAX pour les calculs (`CALCULER`, `SOMMEX`).  
+  - Visualisation : cartes, histogrammes, filtres.  
+- **Ressources** :  
+  - [**Power BI: Apprendre les bases**](https://learn.microsoft.com/fr-fr/training/powerplatform/power-bi) (guides officiels).  
+  - Projet : Tableau de bord pour l'analyse des ventes (dataset de Kaggle).  
+
+#### **2.2. Tableau**  
+- **Objectif** : Alternative à Power BI pour la visualisation.  
+- **À apprendre** :  
+  - Création de champs calculés, paramètres, ensembles de données.  
+  - Optimisation des tableaux de bord (filtres, actions).  
+- **Ressources** :  
+  - [**Tableau: Tutoriels gratuits**](https://www.tableau.com/fr-fr/learn/training).  
+  - Projet : Visualisation des données COVID-19 sur [**data.gouv.fr**](https://www.data.gouv.fr/).  
+
+#### **2.3. SQL avancé**  
+- **Objectif** : Écrire des requêtes complexes.  
+- **À apprendre** :  
+  - Fonctions fenêtrées (`ROW_NUMBER`, `RANK`).  
+  - CTE (Common Table Expressions), sous-requêtes.  
+- **Ressources** :  
+  - [**SQL.sh: Fonctions avancées**](https://sql.sh/cours/fonctions-avancees).  
+  - Pratique : [**LeetCode (SQL)**](https://leetcode.com/problemset/database/) (problèmes faciles/moyens).  
+
+---
+
+### **Étape 3 : Compétences avancées (7–9 mois)**  
+#### **3.1. Intégration d'outils**  
+- **Objectif** : Automatiser les processus ETL.  
+- **À apprendre** :  
+  - Power BI + SQL : Configurer la mise à jour automatique des données.  
+  - Power Query (Excel) pour le nettoyage des données.  
+- **Projet** :  
+  - Créez un pipeline ETL : SQL (extraction) → Power Query (nettoyage) → Power BI (visualisation).  
+
+#### **3.2. Statistiques avancées**  
+- **Objectif** : Approfondir l'analyse d'expériences.  
+- **À apprendre** :  
+  - Taille d'échantillon pour les tests A/B (calculatrices dans Excel).  
+  - ANOVA, analyse de régression (utilisez "Utilitaire d'analyse" d'Excel).  
+- **Ressources** :  
+  - [**Coursera: A/B Testing**](https://www.coursera.org/) (modules gratuits avec sous-titres).  
+
+#### **3.3. Préparation du portfolio**  
+- **Projets à inclure** :  
+  1. Tableau de bord dans Power BI/Tableau avec filtres interactifs.  
+  2. Rapport Excel avec test A/B (calcul de la valeur p, conclusions).  
+  3. Exemple de requête SQL complexe (ex : calcul de la moyenne mobile).  
+- **Où publier** :  
+  - GitHub (téléchargez des captures d'écran et le code SQL).  
+  - LinkedIn (ajoutez des descriptions de projets).  
+
+---
+
+### **Étape 4 : Recherche d'emploi (10–12 mois)**  
+#### **4.1. Soft Skills**  
+- **Compétences** :  
+  - Gestion du temps (Trello/Notion).  
+  - Communication : expliquer les données à des collègues non techniques.  
+
+#### **4.2. Certifications**  
+- **À obtenir** :  
+  - [**Microsoft PL-300 (Power BI)**](https://learn.microsoft.com/fr-fr/certifications/power-bi-data-analyst-associate/).  
+  - [**Tableau Desktop Specialist**](https://www.tableau.com/learn/certification).  
+
+#### **4.3. Networking**  
+- **Où chercher des emplois** :  
+  - [**Welcome to the Jungle**](https://www.welcometothejungle.com/fr).  
+  - LinkedIn (mots-clés : *Data Analyst*, *BI Analyst*).  
+- **Communautés** :  
+  - [**DataFrançaise**](https://www.meetup.com/fr-FR/data-francais/) (Meetup).  
+  - Groupes LinkedIn : *Power BI Community FR*.  
+
+---
+
+### **Plan d'apprentissage hebdomadaire (exemple)**  
+| **Jour**    | **Temps** | **Activité**                                      |  
+|-------------|-----------|---------------------------------------------------|  
+| Lundi       | 2 heures  | Cours de statistiques (Fun-Mooc).                 |  
+| Mardi       | 2 heures  | Pratique SQL (LeetCode).                          |  
+| Mercredi    | 2 heures  | Création d'un tableau de bord dans Power BI.      |  
+| Jeudi       | 1 heure   | Apprentissage de Power Query dans Excel.          |  
+| Vendredi    | 2 heures  | Travail sur le portfolio (projet de test A/B).    |  
+| Samedi      | 1 heure   | Participation à un webinar sur Tableau.           |  
+
+---
+
+### **Ressources clés**  
+- **SQL** : [SQL.sh](https://sql.sh/cours), [LeetCode](https://leetcode.com/).  
+- **Power BI** : [Microsoft Learn](https://learn.microsoft.com/fr-fr/training/powerplatform/power-bi).  
+- **Excel** : [Excel-Pratique](https://www.excel-pratique.com/fr/).  
+- **Données pour la pratique** : [data.gouv.fr](https://www.data.gouv.fr/), [Kaggle](https://www.kaggle.com/).  
+
+Consacrez au moins 15 heures par semaine. Concentrez-vous sur les projets — ils sont essentiels pour décrocher un emploi ! 🚀  
