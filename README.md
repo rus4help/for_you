@@ -70,10 +70,3 @@
 ### Pour Financial Analyst :  
 1. Étudiez les [normes IFRS](https://www.ifrs.org/).  
 2. Pratiquez des modèles financiers sur [CFI](https://corporatefinanceinstitute.com/).  
-
----
-
-## 6. 📂 **Exemple de formatage Telegraph**  
-![Prévisualisation](https://i.imgur.com/nqN3FhO.png)  
-
----
