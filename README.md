@@ -77,10 +77,3 @@
 ![Prévisualisation](https://i.imgur.com/nqN3FhO.png)  
 
 ---
-
-**Comment utiliser ce guide :**  
-1. Copiez ce texte dans un fichier `.md`.  
-2. Personnalisez-le avec vos propres données.  
-3. Publiez sur des plateformes supportant Markdown (GitHub, blogs techniques).  
-
-*Créé avec [StackEdit](https://stackedit.io/).*  
