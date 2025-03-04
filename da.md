@@ -1,3 +1,106 @@
+### **1. Collecte et préparation des données**  
+#### **Ce que fait l'analyste** :  
+- **Extrait les données** :  
+  - Écrit des requêtes SQL pour récupérer des données des bases (ex : commandes des utilisateurs du mois dernier) :  
+    ```sql
+    SELECT user_id, SUM(order_amount) 
+    FROM orders 
+    WHERE order_date BETWEEN '2023-01-01' AND '2023-01-31'
+    GROUP BY user_id;
+    ```  
+  - Utilise **Power Query** dans Excel pour se connecter à des sources (CSV, Google Sheets, bases de données).  
+
+- **Nettoie les données** :  
+  - Supprime les doublons dans Excel via *Données → Supprimer les doublons*.  
+  - Corrige les formats de dates/chiffres dans Power BI avec des fonctions comme *Split Column*.  
+
+#### **Outils** :  
+  - SQL (DBeaver, accès direct aux bases), Excel, Power Query.  
+
+---
+
+### **2. Analyse des données**  
+#### **Ce que fait l'analyste** :  
+- **Calcule les métriques** :  
+  - Calcule le taux de conversion, le panier moyen, le taux de rétention via des tableaux croisés dynamiques dans Excel.  
+  - Utilise des formules Excel : `=SOMME.SI.ENS()`, `=RECHERCHEV()`, `=MOYENNE.SI()`.  
+
+- **Effectue des tests A/B** :  
+  - Compare les métriques de deux groupes avec un test t dans Excel (*Utilitaire d'analyse → Test t à deux échantillons*).  
+  - Détermine si les différences sont statistiquement significatives (p-value < 0,05).  
+
+- **Segmente l'audience** :  
+  - Regroupe les utilisateurs par comportement dans Power BI en utilisant des filtres et des colonnes calculées.  
+
+#### **Exemple** :  
+  > *Tâche* : Identifier la région avec le ROI le plus élevé des campagnes marketing.  
+  *Actions* :  
+  1. Exporte les données des dépenses et revenus par région via SQL.  
+  2. Calcule le ROI dans Excel : `=(Revenu - Dépense) / Dépense`.  
+  3. Visualise le top 5 des régions dans Power BI.  
+
+---
+
+### **3. Visualisation et rapports**  
+#### **Ce que fait l'analyste** :  
+- **Crée des tableaux de bord** :  
+  - Conçoit des rapports interactifs dans Power BI ou Tableau :  
+    - Ajoute des filtres par date, région, produit.  
+    - Utilise des graphiques : histogrammes, courbes de tendance, cartes.  
+  - Configure la mise à jour automatique des données (ex : via Power BI Gateway).  
+
+- **Prépare des présentations** :  
+  - Exporte des graphiques de Power BI vers PowerPoint.  
+  - Formule des conclusions en langage simple :  
+    *« Le taux de conversion a augmenté de 15% après la modification de la page d'accueil. Nous recommandons de généraliser ces changements à toutes les régions. »*  
+
+#### **Outils** :  
+  - Power BI/Tableau, Excel (pour les tableaux intermédiaires), PowerPoint.  
+
+---
+
+### **4. Collaboration et communication**  
+#### **Ce que fait l'analyste** :  
+- **Discute des besoins** :  
+  - Clarifie avec le responsable marketing les métriques à inclure dans le rapport (ex : CAC, LTV).  
+  - Pose des questions : *« Faut-il inclure les retours de produits dans le calcul du LTV ? »*  
+
+- **Explique les résultats** :  
+  - Anime des réunions avec des équipes non techniques en utilisant les tableaux de bord comme support visuel.  
+  - Répond à des questions comme : *« Pourquoi le panier moyen a-t-il baissé ce mois-ci ? »* (analyse les données et recherche des anomalies).  
+
+---
+
+### **5. Exemple d'emploi du temps**  
+| **Heure**       | **Tâche**                                                                 |  
+|-----------------|---------------------------------------------------------------------------|  
+| 9h00–10h30      | Vérification des rapports automatiques dans Power BI, correction d'erreurs de mise à jour. |  
+| 10h30–12h00     | Analyse des résultats d'un test A/B sur un nouveau bouton CTA dans Excel. |  
+| 12h00–13h00     | Réunion avec l'équipe marketing : discussion des métriques clés pour le rapport trimestriel. |  
+| 13h30–15h00     | Création d'un tableau de bord dans Tableau sur les ventes (filtres : région, catégorie de produit). |  
+| 15h00–16h30     | Préparation d'une requête SQL pour exporter les données d'activité utilisateur. |  
+| 16h30–17h30     | Finalisation d'une présentation avec les conclusions pour la direction. |  
+
+---
+
+### **6. Problèmes courants et solutions**  
+- **Problème** : Données manquantes (ex : région non renseignée pour 20% des utilisateurs).  
+  **Solution** : Remplace les valeurs manquantes par *« Non spécifié »* dans Power Query.  
+
+- **Problème** : Le tableau de bord Power BI met trop de temps à charger.  
+  **Solution** : Optimise les requêtes SQL, supprime les colonnes inutiles, active la mise en cache.  
+
+---
+
+### **7. Compétences clés** :  
+1. **SQL** — Indispensable pour extraire les données de la base.  
+2. **Power BI/Tableau** — Essentiels pour rendre les conclusions accessibles.  
+3. **Statistiques** — Pour distinguer les tendances réelles des variations aléatoires.  
+4. **Excel** — Pour des calculs rapides et des analyses préliminaires.  
+
+Même sans programmation, vous pouvez accomplir 80% des tâches d'un analyste de données avec ces outils. L'essentiel est de comprendre le contexte métier et de poser les bonnes questions aux données 😊.  
+
+=====================
 
 ### **1. Compétences et technologies clés**  
 #### **a. Statistiques et analyse de données**  
