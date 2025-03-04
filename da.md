@@ -1,4 +1,4 @@
-### ** Voici une Description détaillée des tâches quotidiennes d'analyse de données utilisant la technologie et les compétences des recommandations précédentes (en mettant l'accent sur SQL, Power BI, Tableau, Excel et les statistiques)
+## Voici une Description détaillée des tâches quotidiennes d'analyse de données utilisant la technologie et les compétences des recommandations précédentes (en mettant l'accent sur SQL, Power BI, Tableau, Excel et les statistiques)
 
 ### **1. Collecte et préparation des données**  
 #### **Ce que fait l'analyste** :  
