@@ -229,12 +229,81 @@
 
 ---
 
-### 🎨 **Style et Mise en Page**  
-- **Couleurs** : Tons professionnels (bleu, gris) avec accents verts pour les liens.  
-- **Icônes** : Emojis pour structurer visuellement (📊, 🚀, 💡).  
-- **Hiérarchie** :  
-  - Titres en `#` et `##`.  
-  - Tableaux pour comparer les compétences.  
-  - Encadrés gris pour les exemples de code et citations.  
+=======================
 
-Cette structure garantit une navigation intuitive et une mise en valeur des compétences clés.
+# Ressources gratuites en français pour pratiquer Excel
+
+Voici une liste de ressources gratuites en français pour améliorer vos compétences Excel avec des exemples concrets :
+
+---
+
+## 1. Plateformes éducatives
+### **OpenClassrooms**
+- **Cours gratuits** : Bases d'Excel (formules, tableaux croisés dynamiques).  
+  [Accéder →](https://openclassrooms.com/fr/)
+
+### **Excel-Pratique**
+- **Blog** : Tutoriels, modèles et exercices (VLOOKUP, tableaux de bord).  
+  [Accéder →](https://www.excel-pratique.com/)
+
+### **Cjoint.com**
+- **Forum** : Échanges entre utilisateurs sur des problèmes pratiques (macros, automatisation).  
+  [Accéder →](https://www.cjoint.com/forum/)
+
+---
+
+## 2. Modèles et exemples
+### **Microsoft Office France**
+- **Modèles officiels** : Budgets, rapports, calendriers.  
+  [Télécharger →](https://templates.office.com/fr-fr/)
+
+### **Modèles Excel**
+- **Collection gratuite** : Gestion de projets, suivi des dépenses.  
+  [Accéder →](https://www.modeles-excel.com/)
+
+### **Excel-Download**
+- **Modèles spécialisés** : Analyse financière, CRM.  
+  [Accéder →](https://www.excel-download.com/)
+
+---
+
+## 3. Données réelles pour analyse
+### **Kaggle**
+- **Jeux de données** : Données économiques, entreprises françaises.  
+  [Explorer →](https://www.kaggle.com/)
+
+### **Data.gouv.fr**
+- **Données publiques** : Statistiques de la France (économie, population).  
+  [Télécharger →](https://www.data.gouv.fr/fr/)
+
+---
+
+## 4. Chaînes YouTube
+### **Excel-Pratique**
+- **Tutoriels vidéo** : Formules, tableaux croisés dynamiques.  
+  [Regarder →](https://www.youtube.com/user/ExcelPratique)
+
+### **Formation Excel**
+- **Cas pratiques** : Analyse financière, tableaux de bord.  
+  [Regarder →](https://www.youtube.com/c/FormationExcel)
+
+---
+
+## 5. Ressources complémentaires
+### **GitHub**
+- **Recherche** : Dépôts avec exemples Excel (mots-clés : *Excel exemples français*).  
+  [Explorer →](https://github.com/)
+
+### **Universités françaises**
+- **Ressources pédagogiques** : Exemples de cours en libre accès.  
+  (Exemple : Site de l’**Université de Lyon**)
+
+---
+
+## Conseils pour bien démarrer
+- Utilisez les mots-clés : *Excel exercices gratuits*, *modèles Excel*.
+- Participez aux forums pour poser des questions et partager vos solutions.
+- Créez un portfolio avec vos fichiers Excel pour les futurs employeurs.
+
+Bonne pratique ! 🚀  
+Si vous avez besoin d’aide, n’hésitez pas à me contacter.
