@@ -307,3 +307,94 @@ Voici une liste de ressources gratuites en français pour améliorer vos compét
 
 Bonne pratique ! 🚀  
 Si vous avez besoin d’aide, n’hésitez pas à me contacter.
+
+======================================
+
+# Compétences Excel indispensables pour un Data Analyst
+
+Un data analyst doit maîtriser Excel pour traiter, analyser et visualiser des données efficacement. Voici les compétences clés requises :
+
+---
+
+## 1. Bases fondamentales
+- **Formules et fonctions** :
+  - Opérations arithmétiques (`+`, `-`, `*`, `/`).
+  - Statistiques : `SUM`, `AVERAGE`, `MIN`, `MAX`, `COUNT`, `COUNTIF`.
+  - Logiques : `IF`, `AND`, `OR`, `NOT`.
+  - Recherche : `VLOOKUP`, `HLOOKUP`, `INDEX`, `MATCH`.
+  - Texte : `CONCAT`, `LEFT`, `RIGHT`, `FIND`, `SUBSTITUTE`.
+  - Dates : `TODAY`, `NOW`, `DATEDIF`.
+
+- **Gestion des données** :
+  - Trier et filtrer (filtres avancés).
+  - Mise en forme conditionnelle.
+  - Tableaux structurés (via `Ctrl+T`).
+
+---
+
+## 2. Outils avancés
+- **Tableaux croisés dynamiques** :
+  - Création et personnalisation.
+  - Groupement de données (dates, catégories).
+  - Champs calculés.
+
+- **Power Query** :
+  - Importation de données (CSV, bases SQL, web).
+  - Nettoyage (doublons, division de colonnes).
+  - Transformation (jointures, agrégations).
+
+- **Formules matricielles** :
+  - `UNIQUE`, `FILTER`, `SORT`, `XLOOKUP`.
+
+- **Power Pivot** :
+  - Modèles de données avec DAX (`CALCULATE`, `SUMX`).
+
+---
+
+## 3. Visualisation
+- Graphiques (histogrammes, courbes, secteurs).
+- Sparklines (mini-graphiques).
+- Tableaux de bord interactifs avec listes déroulantes.
+- Mise en forme conditionnelle pour les tendances.
+
+---
+
+## 4. Analyse statistique
+- Variance (`VAR.S`), écart-type (`STDEV.S`).
+- Corrélation (`CORREL`), régression linéaire.
+- Prévisions avec `FORECAST` ou courbes de tendance.
+
+---
+
+## 5. Automatisation
+- **Macros/VBA** :
+  - Enregistrement et édition de macros.
+  - Scripts simples pour automatiser les tâches.
+
+- Optimisation des formules pour les grands jeux de données.
+
+---
+
+## 6. Gestion des erreurs
+- Validation des données (listes déroulantes).
+- Gestion des erreurs (`#N/A`, `#DIV/0!`) avec `IFERROR`.
+
+---
+
+## 7. Collaboration
+- Partage de classeurs.
+- Commentaires et protection par mot de passe.
+
+---
+
+## Exemples d'utilisation
+- Nettoyage de données pour des rapports.
+- Analyse des ventes avec Power Pivot.
+- Prévision de revenus via la régression.
+- Création de tableaux de bord KPI.
+- Automatisation de rapports hebdomadaires.
+
+---
+
+🚀 **Pour aller plus loin** :  
+Pratiquez sur des jeux de données réels et explorez des formations en ligne (Coursera, Udemy) ou des livres spécialisés.
